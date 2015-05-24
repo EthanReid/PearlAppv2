@@ -302,6 +302,11 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = ABBYY;
+				TargetAttributes = {
+					49B675AC148604A700F853E4 = {
+						DevelopmentTeam = HXAUJAN47Z;
+					};
+				};
 			};
 			buildConfigurationList = 49B675A7148604A600F853E4 /* Build configuration list for PBXProject "OcrSdkDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -423,10 +428,13 @@
 		49B675CC148604A700F853E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/OcrSdkDemo-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -434,10 +442,13 @@
 		49B675CD148604A700F853E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/OcrSdkDemo-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
